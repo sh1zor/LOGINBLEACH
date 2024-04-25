@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head> 
+    <meta charset ="utf-8">
+    <title>Future IT Professional: Jhon Nichole B. Tampos</title>
+    <meta name = "viewport" content ="width=device-width, initial-scale=1.0">
+    <link rel = "stylesheet" href="index.css">
+
+    <title>Login</title>
+    <style>
+        input, button {
+            display: block;
+            margin-bottom: 20px;
+        }
+        
+    </style>
+</head>
+    <body class = "gif"> 
+    <nav role="navigation" aria-label="Main menu">
+    <ul class="nav-menu">
+    <li><img src="./pic/f5.png" align = "left" class="logo"/></li>
+    </ul>
+  </nav>
+  
+  <br>
+    <br>
+        <br>
+            <br>
+                <br>
+                    <br>
+                        <br>
+                             <br>
+                                 <br>
+                                     <br>
+                                        <br>
+                                            <br>
+                                                <br>
+  
+        <div class="container">
+            
+        <h1 class="home" align = "center">Login
+                <form id="loginForm">
+                    <label for="username">Username:</label>
+                    <input type="text" id="username" name="username">
+                    <div id="usernameError" class="error"></div>
+        
+                    <label for="password">Password:</label>
+                    <input type="password" id="password" name="password">
+                    <div id="passwordError" class="error"></div>
+        
+                    <input type="submit" value="Enter" class = "home">
+                </form>
+            </div>
+
+    <script>
+   
+   document.getElementById('loginForm').addEventListener('submit', (event) => {
+            event.preventDefault();
+            
+            let username = document.getElementById('username').value;
+            let password = document.getElementById('password').value;
+
+            if (username === '') {
+                document.getElementById('usernameError').innerText = 'Please enter your username';
+            } else {
+                document.getElementById('usernameError').innerText = '';
+            }
+
+            if (password === '') {
+                document.getElementById('passwordError').innerText = 'Please enter your password';
+            } else {
+                document.getElementById('passwordError').innerText = '';
+            }
+
+            if(username !== '' && password !== '') {
+                window.location.href = 'https://sh1zor.github.io/Bleachwiki/';
+            }
+        });</script>
+</body>
+</html>
