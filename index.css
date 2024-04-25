@@ -131,63 +131,6 @@ a.about,a:hover{
     height: auto;
 }
 
-.one{
-  height: 800px;
-}
-
-.mov2{
-  height: 383px;
-}
-.mov3{
-  height: 383px;
-}
-.mov4{
-  height: 383px;
-}
-
-.fa-facebook{
-  color: blue;
-}
-
-.fa-envelope{
-  color:red;
-}
-
-.fa-phone{
-  color: white;
-}
-
-.slide {
-  display: none;
-}
-
-#slider .slide:first-child {
-  display: block;
-}
-
-.prev, .next {
-  cursor: pointer;
-  position: absolute;
-  top: 50%;
-  width: auto;
-  padding: 16px;
-  margin-top: -50px;
-  color: white;
-  font-weight: bold;
-  font-size: 20px;
-  transition: 0.6s ease;
-  border-radius: 0 3px 3px 0;
-  border-radius: 50%;
-  border: 2px solid white;
-}
-
-.next {
-  right: 50px; /* Adjust right positioning of the next button */
-}
-
-.prev {
-  left: 50px; /* Adjust left positioning of the prev button */
-}
 
 form {
   width: 300px;
